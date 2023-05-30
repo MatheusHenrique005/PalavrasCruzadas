@@ -1,0 +1,31 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.grade {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(20, 30px);
+    grid-template-rows: repeat(20, 30px);
+    gap: 2px;
+  }
+
+  .celula {
+    border: 1px solid #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+  }
+
+  .encontrada {
+    background-color: #66bb6a;
+  }
+
+  .nao-encontrada {
+    background-color: #ef5350;
+  }
