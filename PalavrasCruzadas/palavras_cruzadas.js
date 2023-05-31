@@ -14,160 +14,160 @@ function verificar_palavra(){
     if (palavra_digitada_existe){
         
         if(palavra_digitada == "cpu"){
-            letra4.style.color = "black";
-            letra5.style.color = "black";
-            letra6.style.color = "black";
+            letra4.innerHTML = "C";
+            letra5.innerHTML = "P";
+            letra6.innerHTML = "U";
         } else
 
         if(palavra_digitada == "ula"){
-            letra6.style.color = "black";
-            letra12.style.color = "black";
-            letra17.style.color = "black";
+            letra6.innerHTML = "U";
+            letra12.innerHTML = "L";
+            letra17.innerHTML = "A";
         } else
 
         if(palavra_digitada == "registradores"){
-            letra0.style.color = "black";
-            letra1.style.color = "black";
-            letra3.style.color = "black";
-            letra9.style.color = "black";
-            letra16.style.color = "black";
-            letra27.style.color = "black";
-            letra32.style.color = "black";
-            letra36.style.color = "black";
-            letra41.style.color = "black";
-            letra49.style.color = "black";
-            letra53.style.color = "black";
-            letra57.style.color = "black";
-            letra71.style.color = "black";
+            letra0.innerHTML = "R";
+            letra1.innerHTML = "E";
+            letra3.innerHTML = "G";
+            letra9.innerHTML = "I";
+            letra16.innerHTML = "S";
+            letra27.innerHTML = "T";
+            letra32.innerHTML = "R";
+            letra36.innerHTML = "A";
+            letra41.innerHTML = "D";
+            letra49.innerHTML = "O";
+            letra53.innerHTML = "R";
+            letra57.innerHTML = "E";
+            letra71.innerHTML = "S";
         } else
 
         if (palavra_digitada == "ram") {
-            letra56.style.color = "black";
-            letra69.style.color = "black";
-            letra75.style.color = "black";
+            letra56.innerHTML = "R";
+            letra69.innerHTML = "A";
+            letra75.innerHTML = "M";
         } else
 
         if (palavra_digitada == "rom") {
-            letra48.style.color = "black";
-            letra49.style.color = "black";
-            letra50.style.color = "black";
+            letra48.innerHTML = "R";
+            letra49.innerHTML = "O";
+            letra50.innerHTML = "M";
         } else
 
         if (palavra_digitada == "eprom") {
-            letra80.style.color = "black";
-            letra81.style.color = "black";
-            letra82.style.color = "black";
-            letra83.style.color = "black";
-            letra84.style.color = "black";
+            letra80.innerHTML = "E";
+            letra81.innerHTML = "P";
+            letra82.innerHTML = "R";
+            letra83.innerHTML = "O";
+            letra84.innerHTML = "M";
         } else 
 
         if (palavra_digitada == "flash") {
-            letra2.style.color = "black";
-            letra8.style.color = "black";
-            letra14.style.color = "black";
-            letra22.style.color = "black";
-            letra30.style.color = "black";
+            letra2.innerHTML = "F";
+            letra8.innerHTML = "L";
+            letra14.innerHTML = "A";
+            letra22.innerHTML = "S";
+            letra30.innerHTML = "H";
         } else
 
         if (palavra_digitada == "memoria de massa") {
-            letra59.style.color = "black";
-            letra60.style.color = "black";
-            letra61.style.color = "black";
-            letra62.style.color = "black";
-            letra63.style.color = "black";
-            letra64.style.color = "black";
-            letra65.style.color = "black";
-            letra66.style.color = "black";
-            letra67.style.color = "black";
-            letra68.style.color = "black";
-            letra69.style.color = "black";
-            letra70.style.color = "black";
-            letra71.style.color = "black";
-            letra72.style.color = "black";
+            letra59.innerHTML = "M";
+            letra60.innerHTML = "E";
+            letra61.innerHTML = "M";
+            letra62.innerHTML = "O";
+            letra63.innerHTML = "R";
+            letra64.innerHTML = "I";
+            letra65.innerHTML = "A";
+            letra66.innerHTML = "D";
+            letra67.innerHTML = "E";
+            letra68.innerHTML = "M";
+            letra69.innerHTML = "A";
+            letra70.innerHTML = "S";
+            letra71.innerHTML = "S";
+            letra72.innerHTML = "A";
         } else
 
         if (palavra_digitada == "dma") {
-            letra38.style.color = "black";
-            letra39.style.color = "black";
-            letra40.style.color = "black";
+            letra38.innerHTML = "D";
+            letra39.innerHTML = "M";
+            letra40.innerHTML = "A";
         } else
 
         if (palavra_digitada == "cs") {
-            letra4.style.color = "black";
-            letra11.style.color = "black";
+            letra4.innerHTML = "C";
+            letra11.innerHTML = "S";
         } else
 
         if (palavra_digitada == "address bus") {
-            letra17.style.color = "black";
-            letra18.style.color = "black";
-            letra19.style.color = "black";
-            letra20.style.color = "black";
-            letra21.style.color = "black";
-            letra22.style.color = "black";
-            letra23.style.color = "black";
-            letra24.style.color = "black";
-            letra25.style.color = "black";
-            letra26.style.color = "black";
+            letra17.innerHTML = "A";
+            letra18.innerHTML = "D";
+            letra19.innerHTML = "D";
+            letra20.innerHTML = "R";
+            letra21.innerHTML = "E";
+            letra22.innerHTML = "S";
+            letra23.innerHTML = "S";
+            letra24.innerHTML = "B";
+            letra25.innerHTML = "U";
+            letra26.innerHTML = "S";
         } else
 
         if (palavra_digitada == "data bus") {
-            letra18.style.color = "black";
-            letra28.style.color = "black";
-            letra33.style.color = "black";
-            letra37.style.color = "black";
-            letra51.style.color = "black";
-            letra54.style.color = "black";
-            letra58.style.color = "black";
+            letra18.innerHTML = "D";
+            letra28.innerHTML = "A";
+            letra33.innerHTML = "T";
+            letra37.innerHTML = "A";
+            letra51.innerHTML = "B";
+            letra54.innerHTML = "U";
+            letra58.innerHTML = "S";
         } else
 
         if (palavra_digitada == "i5") {
-            letra9.style.color = "black";
-            letra10.style.color = "black";
+            letra9.innerHTML = "I";
+            letra10.innerHTML = "5";
         } else
 
         if (palavra_digitada == "i7") {
-            letra64.style.color = "black";
-            letra73.style.color = "black";
+            letra64.innerHTML = "I";
+            letra73.innerHTML = "7";
         } else
 
         if (palavra_digitada == "dual core") {
-            letra66.style.color = "black";
-            letra74.style.color = "black";
-            letra76.style.color = "black";
-            letra77.style.color = "black";
-            letra78.style.color = "black";
-            letra79.style.color = "black";
-            letra82.style.color = "black";
-            letra85.style.color = "black";
+            letra66.innerHTML = "D";
+            letra74.innerHTML = "U";
+            letra76.innerHTML = "A";
+            letra77.innerHTML = "L";
+            letra78.innerHTML = "C";
+            letra79.innerHTML = "O";
+            letra82.innerHTML = "R";
+            letra85.innerHTML = "E";
         } else
 
         if (palavra_digitada == "quad core") {
-            letra15.style.color = "black";
-            letra25.style.color = "black";
-            letra31.style.color = "black";
-            letra35.style.color = "black";
-            letra43.style.color = "black";
-            letra52.style.color = "black";
-            letra55.style.color = "black";
-            letra60.style.color = "black";
+            letra15.innerHTML = "Q";
+            letra25.innerHTML = "U";
+            letra31.innerHTML = "A";
+            letra35.innerHTML = "D";
+            letra43.innerHTML = "C";
+            letra52.innerHTML = "O";
+            letra55.innerHTML = "R";
+            letra60.innerHTML = "E";
         } else
 
         if (palavra_digitada == "threads") {
-            letra7.style.color = "black";
-            letra13.style.color = "black";
-            letra20.style.color = "black";
-            letra29.style.color = "black";
-            letra34.style.color = "black";
-            letra38.style.color = "black";
-            letra42.style.color = "black";
+            letra7.innerHTML = "T";
+            letra13.innerHTML = "H";
+            letra20.innerHTML = "R";
+            letra29.innerHTML = "E";
+            letra34.innerHTML = "A";
+            letra38.innerHTML = "D";
+            letra42.innerHTML = "S";
         } else
 
         if (palavra_digitada == "cache") {
-            letra43.style.color = "black";
-            letra44.style.color = "black";
-            letra45.style.color = "black";
-            letra46.style.color = "black";
-            letra47.style.color = "black";
+            letra43.innerHTML = "C";
+            letra44.innerHTML = "A";
+            letra45.innerHTML = "C";
+            letra46.innerHTML = "H";
+            letra47.innerHTML = "E";
         } else {
             alert("Ouve algum erro inexplicável")
         }
