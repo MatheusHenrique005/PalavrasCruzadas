@@ -82,3 +82,32 @@ tr {
 .nao-encontrada {
   background-color: #ef5350;
 }
+
+/* BLOCO DAS DICAS */
+
+.dicasBloco{
+  display: flex;
+  border: 1px solid blue;
+  margin-top: 25px;
+  height: 500px;
+  flex-direction: column;
+}
+
+.dicaPalavra{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  font-size: 25px;
+  font-family: Arial;
+  font-weight: bold;
+  color: blue;
+}
+
+.ListaDicas{
+  color: black;
+  font-family: Arial;
+}
+
+.ListaDicas li{
+  margin-top: 5px;
+}
