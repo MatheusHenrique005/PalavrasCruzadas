@@ -73,7 +73,7 @@ function verificar_palavra(){
             letra59.innerHTML = "M";
             letra60.innerHTML = "E";
             letra61.innerHTML = "M";
-            letra62.innerHTML = "O";
+            letra62.innerHTML = "Ó";
             letra63.innerHTML = "R";
             letra64.innerHTML = "I";
             letra65.innerHTML = "A";
@@ -175,4 +175,101 @@ function verificar_palavra(){
     } else {
         alert("Não... Não tem essa palavra na Palavra Cruzada, tente novamente");
     }
+}
+
+function proxima(i){
+    var proxima = i + 1;
+
+    if(i == 1){
+        lista_dicas.innerHTML = `<li>01 - Memória dentro da própria CPU que armazena N bits.</li>`;
+        btn_proxima.setAttribute('onclick', `proxima(${proxima})`);
+    } else
+
+    if(i == 2){
+        lista_dicas.innerHTML = `<li>02 - Também conhecida por processador, peça é como o "cérebro do computador".</li>`;
+        btn_proxima.setAttribute('onclick', `proxima(${proxima})`);
+    } else
+
+    if(i == 3){
+        lista_dicas.innerHTML = `<li>03 - Permite que um dispositivo de entrada e saída envie ou receba dados diretamente da memória principal, ignorando a CPU</li>`;
+        btn_proxima.setAttribute('onclick', `proxima(${proxima})`);
+    } else
+
+    if(i == 4){
+        lista_dicas.innerHTML = `<li>04 - É um circuito combinatório responsável pela execução de somas, subtrações e funções lógicas, em um sistema digital.</li>`;
+        btn_proxima.setAttribute('onclick', `proxima(${proxima})`);
+    } else
+
+    if(i == 5){
+        lista_dicas.innerHTML = `<li>05 - É um sistema dentro de um computador ou dispositivo, consistindo em um conector ou conjunto de fios, que fornece transporte de dados.</li>`;
+        btn_proxima.setAttribute('onclick', `proxima(${proxima})`);
+    } else
+
+    if(i == 6){
+        lista_dicas.innerHTML = `<li>06 - É um barramento de endereço</li>`;
+        btn_proxima.setAttribute('onclick', `proxima(${proxima})`);
+    } else
+
+    if(i == 7){
+        lista_dicas.innerHTML = `<li>07 - Forma como um processo/tarefa de um programa de computador é divido</li>`;
+        btn_proxima.setAttribute('onclick', `proxima(${proxima})`);
+    } else
+
+    if(i == 8){
+        lista_dicas.innerHTML = `<li>08 - Tecnologia de armazenamento de dados que usa uma memória não volátil.</li>`;
+        btn_proxima.setAttribute('onclick', `proxima(${proxima})`);
+    } else
+
+    if(i == 9){
+        lista_dicas.innerHTML = `<li>09 - Permite a CPU a acessar memoria externar e/ou periféricos externos</li>`;
+        btn_proxima.setAttribute('onclick', `proxima(${proxima})`);
+    } else
+
+    if(i == 10){
+        lista_dicas.innerHTML = `<li>10 - Processador que contém 4 núcleos é um processador:</li>`;
+        btn_proxima.setAttribute('onclick', `proxima(${proxima})`);
+    } else
+
+    if(i == 11){
+        lista_dicas.innerHTML = `<li>11 - Intermediário entre um operador de um processo e o dispositivo de armazenamento ao qual esse operador acede.</li>`;
+        btn_proxima.setAttribute('onclick', `proxima(${proxima})`);
+    } else
+
+    if(i == 12){
+        lista_dicas.innerHTML = `<li>12 - Memoria que não é acessada pelo processador mas sim por intermédio da memória ram, cache, etc.</li>`;
+        btn_proxima.setAttribute('onclick', `proxima(${proxima})`);
+    } else
+
+    if(i == 13){
+        lista_dicas.innerHTML = `<li>13 - Processador que garante alto desempenho</li>`;
+        btn_proxima.setAttribute('onclick', `proxima(${proxima})`);
+    } else
+
+    if(i == 14){
+        lista_dicas.innerHTML = `<li>14 - Processador que contém 2 núcleos é um processador:</li>`;
+        btn_proxima.setAttribute('onclick', `proxima(${proxima})`);
+    } else
+
+    if(i == 15){
+        lista_dicas.innerHTML = `<li>15 - Processador com um ótimo custo-beneficio e um amplo uso.</li>`;
+        btn_proxima.setAttribute('onclick', `proxima(${proxima})`);
+    } else
+
+    if(i == 16){
+        lista_dicas.innerHTML = `<li>16 - A memória somente de leitura.</li>`;
+        btn_proxima.setAttribute('onclick', `proxima(${proxima})`);
+    } else
+
+    if(i == 17){
+        lista_dicas.innerHTML = `<li>17 - Memória volátil de leitura e escrita, e de acesso rapido.</li>`;
+        btn_proxima.setAttribute('onclick', `proxima(${proxima})`);
+    } else
+
+    if(i == 18){
+        lista_dicas.innerHTML = `<li>18 - Pode ser apagada apenas por exposição a uma forte luz ultravioleta.</li>`;
+        proxima = 1;
+        btn_proxima.setAttribute('onclick', `proxima(${proxima})`);
+        
+    }
+    
 }
